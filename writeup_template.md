@@ -45,14 +45,20 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 ###2. Identify potential shortcomings with your current pipeline
 
+The challenge video exposed a couple flaws with my pipeline:
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+    Highly sensitive to color
+    Requires hard coded regions
+    Highly dependent on lane location.
 
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+
+    Use information from past frames
+    Better tuned hough transform and edge detection
+    Automatically calculate region
+    Automatically calculate color mask range
+
 
 Another potential improvement could be to ...
