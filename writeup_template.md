@@ -60,5 +60,3 @@ The challenge video exposed a couple flaws with my pipeline:
     Automatically calculate region
     Automatically calculate color mask range
 
-
-Another potential improvement could be to ...
